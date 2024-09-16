@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+
+  <style>
+    body {
+      background-color: #000a1f;
+    }
+
+    .container {
+      margin: 160px auto 0 auto;
+      width: 70%;
+      height: 540px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .container img {
+      width: 10%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid rgba(255, 255, 255, 0.684);
+      transition: all ease-in-out 0.5s;
+      cursor: pointer;
+
+    }
+
+    .container img:hover {
+      width: 25%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="assets/image-1.png" alt="poster-image">
+    <img src="assets/image-2.png" alt="poster-image">
+    <img src="assets/image-3.png" alt="poster-image">
+    <img src="assets/image-4.png" alt="poster-image">
+    <img src="assets/image-5.png" alt="poster-image">
+  </div>
+</body>
+
+</html>
